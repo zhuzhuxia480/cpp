@@ -54,7 +54,7 @@ void producer_task()
 		cout<< "produce the " << i << " ^th item" << endl;
 		produce_item(g_repo, i);
 	}
-	cout << "produce task finished!" << endl;
+	cout << "produce task finished!" << endl;
 }
 
 int consume_item(repo_t &rep)
